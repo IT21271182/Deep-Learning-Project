@@ -22,10 +22,10 @@ This project aims to predict future temperatures using historical weather data f
 ## Project Objectives:
 1. To predict future temperatures based on historical weather data from Sri Lanka.
 2. To compare the performance of four deep learning models:
-   - **Recurrent Neural Network (RNN)**
+   - **Recurrent Convolutional Neural Network (RCNN)**
    - **Long Short-Term Memory (LSTM)**
    - **Gated Recurrent Unit (GRU)**
-   - **Convolutional Neural Network (CNN)**
+   - **1D Convolutional Neural Network (CNN)**
 3. To analyze the efficiency and accuracy of each model and determine the most effective approach for temperature prediction.
 4. To explore how weather features such as humidity, wind speed, and precipitation influence temperature forecasting.
 
@@ -33,7 +33,7 @@ This project aims to predict future temperatures using historical weather data f
 
 1. **Recurrent Neural Network (RNN):**
 
-   - A deep learning model that works well with sequential data by passing information from one step to the next, making it useful for time series predictions like weather forecasting.
+   - A hybrid deep learning model that combines the strengths of both convolutional layers for feature extraction and recurrent layers for handling sequential data, making it effective for tasks like time series predictions and spatial-temporal analysis.
 
 2. **Long Short-Term Memory (LSTM):**
 
@@ -67,7 +67,7 @@ This project aims to predict future temperatures using historical weather data f
 ## Contribution
 - **Jayathilaka A G K D** (GRU)
 - **Rathnayake R M U V** (LSTM)
-- **Gunasekara W M A S** (RNN)
+- **Gunasekara W M A S** (RCNN)
 - **Liyanage U S P** (CNN)
 
 
