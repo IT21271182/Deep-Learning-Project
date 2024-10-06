@@ -39,7 +39,7 @@ This project aims to predict future temperatures using historical weather data f
 
    - An advanced type of RNN that handles long-term dependencies in sequential data. LSTM networks are effective at learning and remembering patterns over extended periods, making them ideal for time-series predictions.
 
-3.**Gated Recurrent Unit (GRU):**
+3. **Gated Recurrent Unit (GRU):**
 
   - A simplified version of LSTM that also captures long-term dependencies in sequential data but with fewer parameters, offering a more efficient alternative to LSTM with comparable performance.
 
